@@ -12,3 +12,18 @@ nav.header-nav {
 .nav-item > a{
     text-decoration: none;
 }
+
+@keyframes popUp {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+  }
+
+  .animated-text {
+    animation: popUp 2s ease-in-out;
+  }
