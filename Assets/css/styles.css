@@ -1,12 +1,14 @@
-header {
-    height: 700px;
-    background-image: url("../images/download.\ 2.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+body {
+  box-sizing: border-box;
+}
+
+section {
+  height: 300px;
+  background-color: blueviolet;
 }
 
 nav.header-nav {
-    height: 50px;
+    height: 80px;
 }
 
 .nav-item > a{
@@ -34,4 +36,5 @@ nav.header-nav {
 
   .animated-text {
     animation: popUp 2s ease-in-out;
+    font-family: 'Brush Script MT', cursive;
   }
