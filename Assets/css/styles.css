@@ -15,6 +15,7 @@ button.btn-success:hover {
   border: 3px solid rgb(19, 60, 19);
 }
 
+/*top-nav dropdown*/
 .mdi-menu:hover {
   cursor: pointer;
 }
@@ -27,6 +28,7 @@ button.btn-success:hover {
   display: block;
 }
 
+/*brand name animation*/
 @keyframes popUp {
   0% {
       transform: translate(50%);
