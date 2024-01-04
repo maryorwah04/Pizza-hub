@@ -1,15 +1,18 @@
-body {
+body, header.container-fluid{
   margin: 0;
   padding: 0;
 }
+
 div {
   background-image: url('../images/download. 2.jpg');
-  height: 400px;
-  background-repeat: no-repeat;
+  height: 500px;
   background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
-header.container-fluid {
-  padding: 0;
+@media screen and (min-width: 1028px) {
+  div {
+    background-size: cover;
+  }
 }
