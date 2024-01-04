@@ -44,6 +44,11 @@ button.btn-success:hover {
   animation: popUp 1s ease-in-out;
 }
 
+/*section 2, about us*/
+.section-two {
+  min-height: 500px;
+}
+
 @media screen and (min-width: 1028px) {
   
 }
