@@ -40,13 +40,17 @@ button.btn-success:hover {
     }
 }
 
-.d-flex {
+div.d-flex {
   animation: popUp 1s ease-in-out;
 }
 
 /*section 2, about us*/
 .section-two {
   min-height: 500px;
+}
+
+img {
+  width: 400px;
 }
 
 @media screen and (min-width: 1028px) {
