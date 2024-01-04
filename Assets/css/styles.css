@@ -11,6 +11,11 @@ div {
   width: 100%;
 }
 
+button.btn-success:hover {
+  outline: none;
+  border: 3px solid rgb(19, 60, 19);
+}
+
 @media screen and (min-width: 1028px) {
   
 }
