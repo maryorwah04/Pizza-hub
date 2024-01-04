@@ -1,9 +1,8 @@
 body, header.container-fluid{
   margin: 0;
-  padding: 0;
 }
 
-div {
+header {
   background-image: url('../images/download. 2.jpg');
   min-height: 500px;
   background-size: cover;
@@ -14,6 +13,18 @@ div {
 button.btn-success:hover {
   outline: none;
   border: 3px solid rgb(19, 60, 19);
+}
+
+.mdi-menu:hover {
+  cursor: pointer;
+}
+
+.list-group {
+  display: none;
+}
+
+.hamburger-content:hover .list-group {
+  display: block;
 }
 
 @media screen and (min-width: 1028px) {
