@@ -101,7 +101,7 @@ div.col-lg-6 {
     }
 }
 
-.section-three > .row {
+.section-three > .row, div.col-xxl-4 {
   animation: popUp 2s ease-in-out;
 }
 @media screen and (min-width: 1028px) {
