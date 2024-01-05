@@ -85,7 +85,7 @@ div.col-lg-6 {
 }
 
 /*section three*/
-.section-three {
+.section-three, .section-four {
   min-height: 500px;
 }
 
