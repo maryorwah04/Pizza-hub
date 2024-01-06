@@ -1,4 +1,4 @@
-body, header.container-fluid{
+body, header.container-fluid {
   margin: 0;
 }
 
@@ -15,7 +15,7 @@ button.btn-success:hover {
   border: 3px solid rgb(19, 60, 19);
 }
 
-/*top-nav dropdown*/
+/* top-nav dropdown */
 .mdi-menu:hover {
   cursor: pointer;
 }
@@ -28,7 +28,7 @@ button.btn-success:hover {
   display: block;
 }
 
-/*brand name animation*/
+/* brand name animation */
 @keyframes slideIn {
   0% {
       transform: translateY(-100%);
@@ -44,7 +44,7 @@ div.brand-name {
   animation: slideIn 1s ease-in-out;
 }
 
-/*section 2, about us*/
+/* section 2, about us */
 .section-two, .contact-page {
   min-height: 500px;
 }
@@ -53,7 +53,7 @@ img {
   width: 400px;
 }
 
-/*section 2 animation*/
+/* section 2 animation */
 @keyframes slideRight {
   0% {
       transform: translateX(-50%);
@@ -84,12 +84,12 @@ div.col-lg-6 {
   animation: slideLeft 2s ease-in-out;
 }
 
-/*section three*/
+/* section three */
 .section-three, .section-four {
   min-height: 500px;
 }
 
-/*section three animation*/
+/* section three animation */
 @keyframes popUp {
   0% {
       transform: scale(0.1);
@@ -105,9 +105,9 @@ div.col-lg-6 {
   animation: popUp 2s ease-in-out;
 }
 
-/*contact section*/
+/* contact section */
 
-/*footer*/
+/* footer */
 footer {
   min-height: 200px;
   background-color: rgb(45, 39, 39);
