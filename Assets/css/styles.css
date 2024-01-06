@@ -108,9 +108,7 @@ div.col-lg-6 {
   }
 }
 
-.section-three > 
-.row,
-div.col-xxl-4 {
+.section-three > .row, div.col-xxl-4 {
   animation: popUp 2s ease-in-out;
 }
 
