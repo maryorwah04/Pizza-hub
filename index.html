@@ -100,13 +100,43 @@
     </section>
 
     <!-- Contact page -->
-    <section class="contact-page d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col-md-6">
-                
+    <section class="contact-page d-flex justify-content-center align-items-center p-5">
+        <div class="row d-flex justify-content-between w-100 text-success">
+            <div class="col-md-6 d-flex flex-column justify-content-between" style="gap: 30px;">
+                <div class="address fs-2">
+                    <span class="mdi mdi-map-marker-outline"></span>
+                    <span style="font-family: 'Long Cang', cursive;"> 66 Peckham Rye, London SE15 4JR, United Kingdom</span>
+                </div>
+                <div class="email fs-2">
+                    <span class="mdi mdi-email"></span>
+                    <span style="font-family: 'Long Cang', cursive;">johndoe@yahoo.com</span>
+                </div>
+                <div class="tel fs-2">
+                    <span class="mdi mdi-phone"></span>
+                    <span style="font-family: 'Long Cang', cursive;">+44 453 675 8656</span>
+                </div>
             </div>
             <div class="col-md-6">
-                
+                <form action="#">
+                    <div class="mb-3 mt-3">
+                      <label for="name" class="form-label">Name:</label>
+                      <input type="text" class="form-control" id="name" name="user_name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email:</label>
+                      <input type="email" class="form-control" id="email" name="user_email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="msg" class="form-label">Message:</label>
+                        <input type="text" class="form-control" id="msg" name="user_msg">
+                      </div>
+                    <div class="form-check mb-3">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember"> Subscribe
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-success border border-dark">Send</button>
+                  </form>
             </div>
         </div>
     </section>
