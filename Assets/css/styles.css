@@ -56,6 +56,10 @@ img {
   width: 400px;
 }
 
+div.about {
+  width: 80%;
+}
+
 /* section 2 animation */
 @keyframes slideRight {
   0% {
@@ -119,4 +123,10 @@ div.col-xxl-4 {
 footer {
   min-height: 200px;
   background-color: rgb(45, 39, 39);
+}
+
+@media screen and (max-width: 576px) {
+  div.about {
+    width: 100%;
+  }
 }
