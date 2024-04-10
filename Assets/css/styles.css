@@ -1,0 +1,132 @@
+body,
+header.container-fluid {
+  margin: 0;
+}
+
+header {
+  background-image: url('../images/download. 2.jpg');
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+button.btn-success:hover {
+  outline: none;
+  border: 3px solid rgb(19, 60, 19);
+}
+
+/* top-nav dropdown */
+.mdi-menu:hover {
+  cursor: pointer;
+}
+
+.list-group {
+  display: none;
+}
+
+.hamburger-content:hover .list-group {
+  display: block;
+}
+
+/* brand name animation */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+div.brand-name {
+  animation: slideIn 1s ease-in-out;
+}
+
+/* section 2, about us */
+.section-two,
+.contact-page {
+  min-height: 500px;
+}
+
+img {
+  width: 400px;
+}
+
+div.about {
+  width: 80%;
+}
+
+/* section 2 animation */
+@keyframes slideRight {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+img.col-lg-6 {
+  animation: slideRight 2s ease-in-out;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+div.col-lg-6 {
+  animation: slideLeft 2s ease-in-out;
+}
+
+/* section three */
+.section-three,
+.section-four {
+  min-height: 500px;
+}
+
+/* section three animation */
+@keyframes popUp {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.section-three > .row,
+div.col-xxl-4 {
+  animation: popUp 2s ease-in-out;
+}
+
+/* contact section */
+
+/* footer */
+footer {
+  min-height: 200px;
+  background-color: rgb(45, 39, 39);
+}
+
+@media screen and (max-width: 576px) {
+  div.about {
+    width: 100%;
+  }
+}
